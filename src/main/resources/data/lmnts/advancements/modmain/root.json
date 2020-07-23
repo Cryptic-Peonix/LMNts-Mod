@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "extrathings:test_block"
+    },
+	"title": "LMNts",
+	"description": "Your Fun Begins",
+    "frame": "task",
+    "hidden": false,
+    "background": "lmnts:textures/blocks/test_block.png"
+  },
+  "criteria": {
+    "crafting_table": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:crafting_table"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "crafting_table"
+    ]
+  ]
+}

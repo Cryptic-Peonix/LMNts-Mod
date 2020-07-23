@@ -1,0 +1,5 @@
+{
+	"variants":{
+	"":{"model": "lmnts:block/test_block"}
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"display": {
+	"title": "Reinforcements!",
+	"description": "Create Reinforced Stone",
+	"icon": {
+		"item": "lmnts:reinforced_stone"
+	},
+	"hidden": false
+	},
+	"parent": "lmnts:modmain/root",
+	"criteria": {
+		"errorblock": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "lmnts:reinforced_stone"
+					}
+				]
+			}
+		}
+	}
+}

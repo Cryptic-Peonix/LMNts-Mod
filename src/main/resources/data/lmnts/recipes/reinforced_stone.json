@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TRT"
+  ],
+  "key": {
+    "T": {
+    "item": "minecraft:iron_ingot"
+    },
+    "R": {
+	"item": "minecraft:stone"    
+    }
+  },
+  "result": {
+    "item": "lmnts:reinforced_stone"
+  }
+}

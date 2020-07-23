@@ -1,0 +1,43 @@
+
+# The name of the mod loader type to load - for regular FML @Mod mods it should be javafml
+modLoader="javafml" #mandatory
+
+# A version range to match for said mod loader - for regular FML @Mod it will be the forge version
+loaderVersion="[32,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+
+# A list of mods - how many allowed here is determined by the individual mod loader
+[[mods]] #mandatory
+
+# The modid of the mod
+modId="lmnts" #mandatory
+
+# The version number of the mod - there's a few well known ${} variables useable here or just hardcode it
+version="0.0.1" #mandatory
+
+ # A display name for the mod
+displayName="LMNts Mod" #mandatory
+
+# A URL for the "homepage" for this mod, displayed in the mod UI
+# displayURL="http://example.com/" #optional
+
+# A file name (in the root of the mod JAR) containing a logo for display
+logoFile="examplemod.png" #
+
+# A text field displayed in the mod UI
+credits=":)"
+
+# A text field displayed in the mod UI
+authors="The Triumvirate (King, Zhar, and Skyla)"
+
+# The description text for the mod (multi line!) (#mandatory)
+description='''
+LMNts Mod!
+
+Code: Skyla and King
+
+Art: Zhar
+
+'''
+
+
+

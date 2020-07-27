@@ -1,6 +1,7 @@
 package com.triumvirate.lmnts.init;
 
 import com.triumvirate.lmnts.LMNts;
+import com.triumvirate.lmnts.objects.blocks.ModOreBlock;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -21,4 +22,7 @@ public class BlockInit {
 	public static final RegistryObject<Block> REINFORCED_STONE = BLOCKS.register("reinforced_stone",
 			() -> new Block(Block.Properties.create(Material.ROCK).hardnessAndResistance(10f, 30f).harvestLevel(2)
 					.harvestTool(ToolType.PICKAXE).func_235861_h_().sound(SoundType.STONE)));
+
+	public static final RegistryObject<Block> SHOCK_CRYSTAL_ORE = BLOCKS.register("shock_crystal_ore",
+			() -> new ModOreBlock(Block.Properties.from(Blocks.EMERALD_ORE)));
 }

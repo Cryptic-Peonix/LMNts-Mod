@@ -11,6 +11,11 @@ import net.minecraftforge.registries.ForgeRegistries;
 public class ItemInit {
 
 	public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, LMNts.MOD_ID);
-	
-	public static final RegistryObject<Item> TEST_ITEM = ITEMS.register("test_item", () -> new Item(new Item.Properties().group(ModItemGroup.lmnts).maxStackSize(64)));
+
+	public static final RegistryObject<Item> TEST_ITEM = ITEMS.register("test_item",
+			() -> new Item(new Item.Properties().group(ModItemGroup.lmnts).maxStackSize(64)));
+
+	public static final RegistryObject<Item> SHOCK_CRYSTAL = ITEMS.register("shock_crystal",
+			() -> new Item(new Item.Properties().group(ModItemGroup.lmnts).maxStackSize(64)));
+
 }

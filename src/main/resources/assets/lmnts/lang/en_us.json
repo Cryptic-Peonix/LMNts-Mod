@@ -1,5 +1,10 @@
 {
+	//blocks
 	"block.lmnts.test_block": "Test Block",
 	"block.lmnts.reinforced_stone": "Reinforced Stone",
-	"item.lmnts.test_item": "Test Item"
+	"block.lmnts.shock_crystal_ore": "Shock Crystal Ore",
+	
+	//items
+	"item.lmnts.test_item": "Test Item",
+	"item.lmnts.shock_crystal": "Shock Crystal"
 }

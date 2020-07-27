@@ -1,0 +1,6 @@
+{
+	"parent": "block/cube_all",
+	"textures": {
+	"all": "lmnts:blocks/shock_crystal_ore"
+	}
+}
